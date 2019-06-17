@@ -44,7 +44,7 @@ export class AppComponent {
   };
 
   ngOnInit() {
-    let canvas = document.getElementById('canvas');
+    let canvas: any = document.getElementById('canvas');
        
     if (canvas.getContext) {
       let ctx = canvas.getContext('2d');
